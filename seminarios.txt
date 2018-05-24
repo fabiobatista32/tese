@@ -1,0 +1,33 @@
+Seminário de computação II
+
+1 -- Definição do tema para dissertação( Reconhecimento optico de caracteres manuscritos utilizando redes neurais convolucionais)
+
+2 -- Levantamento bibliográfico
+
+3 -- Levantamento bibliográfico
+
+4 -- Estudo sobre redes neurais artificiais
+
+5 -- Estudo sobre tipo de implementações utilizando redes neurais
+
+6 -- Rede percepton
+
+7 -- Rede multi-layer percepton
+
+8 -- Introdução a redes neurais profundas ou deep learning
+
+9 -- Levantamento de trabalho recentes utilizando deep learning
+
+10 --Trabalhos relacionados sobre reconhecimento optico de caracteres e salvar resultados afin de fazer um comparativo com a metodologia proposta.
+
+11 -- Estudo sobre segmentação de caracteres usando documentos historicos.
+
+12 -- Escrevendo documento formal para qualificação.
+
+13 -- Escrevendo Introdução, fundamentação teorica e metodologia.
+
+14 -- Escrevendo objeticos, justificativa e aplicabilidade.
+
+15 -- Escrevendo Metodologia e Resultados
+
+16 -- Escrevendo Conclusão do trabalho e Formatação do documento.
