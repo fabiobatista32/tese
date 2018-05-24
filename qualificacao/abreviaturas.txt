@@ -1,0 +1,11 @@
+ACP Análise de Componentes Principais
+
+ACU Acurácia
+
+CNN Convolutional Neural Networks
+
+MLP Multilayer Perceptron
+
+RNA Redes Neurais Artificiais
+
+

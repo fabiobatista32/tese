@@ -1,0 +1,1 @@
+Para avaliar a metodologia desenvolvida foi ultilizada uma base de dados com X imagens, que representam as letras de A-Z e, desse conjunto de dados, 50% foram utilizados para treinamento e 50% para testes. Ao final dos tese, os resultados obtidos foram satisfatórios, com taxa de acerto superior a 98%.
