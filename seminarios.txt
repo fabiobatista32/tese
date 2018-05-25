@@ -10,9 +10,9 @@ Seminário de computação II
 
 5 -- Estudo sobre tipo de implementações utilizando redes neurais
 
-6 -- Rede percepton
+6 -- Rede Perceptron
 
-7 -- Rede multi-layer percepton
+7 -- Rede Multi Layer Perceptron
 
 8 -- Introdução a redes neurais profundas ou deep learning
 

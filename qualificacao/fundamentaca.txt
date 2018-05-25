@@ -16,11 +16,14 @@ passo de aprendizado). As primeiras redes sofreram problemas quanto a classifica
 
 	Problemas no Processamento de Imagens por Redes Clássicas	
 
-	Introdução ao Deep Learning
+	Deep Learning
 
 	O interesse pela Aprendizagem de Máquina( Machine learning) explodiu na última década. O mundo a nossa volta está passando por uma transformação e vemos uma interação cada vez maior das aplicações de computador com os seres humanos.
 
 	Redes Neuronais Convolucionais
+	
+		As camadas convolucionais são responsáveis por extrair atributos dos volumens de entradas.
+		As camadas de pooling são responsáveis por reduzir a dimensionalidade do volume resultante após as camadas convolucionais e ajudam a tornar a representação invariante a pequenas translações na entrada.
 
 
 [1] CHONG, E. K. P.; ZAK., S. H. An Introduction to Optimization, Fourth Edition. [S.l.]: Jon Wiley Sons, Inc, 2013.
