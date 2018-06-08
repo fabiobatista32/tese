@@ -1,0 +1,9 @@
+ Uma das motivação de redes neurais é criar maquinas capazes de operar independentemente do homem:
+	conseguem aprender sozinhas
+	iteragem com ambientes desconhecidos
+	possa ser chamada de autônoma, inteligente ou cognitiva
+		capazes de lidar com eventos inesperados
+
+cognição -> aquisição de um conhecimento
+
+
