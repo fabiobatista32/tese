@@ -1,0 +1,55 @@
+FUNDAMENTAÇÃO TEORICA
+
+	### Redes Neuronais Artificiais
+
+	As redes Neuronais Artificiais tem sua história iniciada quando um ramo da psicologia caracterizado como conexionismo, tenta descrever matematicamente a forma de aprendizado do cérebro animal, tendo como referência a estrutura básica da massa encefálica, o neurônio. O primeiro modelo artificial de um neurônio natural foi desenvolvido por Warren McCulloch e Walter Pitts em 1943.
+	Em 1949 Donald Hebb mostrou que a capacidade de aprendizado da rede pode ser aprimorada pelo ajuste dos pesos de entrada dos neurônios, propondo que o aprendizado dos neurônios poderia ser realizado pelo reforço das ligações sinápticas entre os neurônios excitados pela camada de entrada. Em 1958 Rosenblatt propôs uma rede (Perceptron) com base na estrutura do neurônios proposto por McCulloch e Pitts onde, através do ajuste dos pesos sinápticos ocorreria o aprendizado de certos tipos de padrões.
+	Nos trabalhos de Widrow e Hoff em 1960 foi proposta uma regra de aprendizado cujos os valores dos pesos seriam proporcionais a sua entrada, o erro entre o valor desejado na saı́da da rede e o valor apresentado pela mesma e uma constante (caracterizada como
+passo de aprendizado). As primeiras redes sofreram problemas quanto a classificação de padrões não-linearmente-separáveis, resolvido através do uso de redes MLP (Multi-Layer Perceptron) ou Perceptron de múltiplas camadas e do algoritmo de backpropagation.
+	As Redes Neuronais Artificiais tem se mostrado robustas à várias aplicações práticas como cancelamento de eco, reconhecimento de padrões, indo até extração de padrões de uma grande quantidade de imagens [1] [15] [16] [8]. A rede neuronal, pela sua constituição matemática, pode ser vista como um dispositivo de computação paralela, haja vista que um neurônio trata vários sinais paralelamente, gerando um efeito individual entradas-saı́da [16].
+	
+	### Função de Ativação
+
+	As funções de ativação são um elemento extremamente importante das redes neurais artificiais. Elas basicamente decidem se um neurônio deve ser ativado ou não. Ou seja, se a informação que o neurônio está recebendo é relevante para a informação fornecida ou deve ser ignorada. Veja na fórmula abaixo como a função de ativação é mais uma camada matemática no processamento.
+
+	imagem{funcao_ativacao.png}
+
+	A função de ativação é a transformação não linear que fazemos ao longo do sinal de entrada. Esta saída transformada é então enviada para a próxima camada de neurônios como entrada. Quando não temos a função de ativação, os pesos e bias simplesmente fazem uma transformação linear. Uma equação linear é simples de resolver, mas é limitada na sua capacidade de resolver problemas complexos. Uma rede neural sem função de ativação é essencialmente apenas um modelo de regressão linear. A função de ativação faz a transformação não-linear nos dados de entrada, tornando-o capaz de aprender e executar tarefas mais complexas. Queremos que nossas redes neurais funcionem em tarefas complicadas, como traduções de idiomas (Processamento de Linguagem Natural) e classificações de imagens (Visão Computacional). As transformações lineares nunca seriam capazes de executar tais tarefas[2].
+	Tipos mais populares de função de ativação: Função Linear, binaria, Sigmóide, ReLU, Softmax entre outras.
+	A Escolha da funçãode ativação vai depender do problema.
+
+	Funções Sigmóide e suas combinações geralmente funcionam melhor no caso de classificadores.
+    	A função ReLU é uma função de ativação geral e é usada na maioria dos casos atualmente.
+    	Se encontrarmos um caso de neurônios deficientes em nossas redes, a função Leaky ReLU é a melhor escolha.
+    	Tenha sempre em mente que a função ReLU deve ser usada apenas nas camadas ocultas.
+    	Como regra geral, você pode começar usando a função ReLU e depois passar para outras funções de ativação no caso da ReLU não fornecer resultados ótimos[2].
+
+	### Backpropagation	
+
+	### Problemas no Processamento de Imagens por Redes Clássicas	
+
+	### Deep Learning
+
+	O interesse pela Aprendizagem de Máquina( Machine learning) explodiu na última década. O mundo a nossa volta está passando por uma transformação e vemos uma interação cada vez maior das aplicações de computador com os seres humanos.
+	Deep learning é um ramo da área de aprendizado de máquinas baseado em um conjunto de algoritmos que visa modelar em alto nível as abstrações de dados usando várias camadas de processamento com complexas estruturas, compostas de transformações não-lineares[2]. Começou como uma necessidade em Machine Learning de interpretar níveis de maior complexidade do mundo perceptual e criar sistemas perceptivos que possam aprender essas interpretações olhando seu ambiente . A literatura coloca o Deep Learning como um subcampo de redes neurais artificiais. O treinamento de redes neurais profundas (Deep Neural Networks) com base em backpropagation apresentou dificuldades ao ser colocado em prática pelo final dos anos 1980. Assim, tal treinamento tornou-se um assunto de pesquisa no início da década de 1990, levando ao desenvolvimento de novas metodologias de treinamento. Finalmente, nos anos 2000, houve um aperfeiçoamento da aprendizagem supervisionada utilizando puramente Deep Learning [3].
+
+	### Redes Neuronais Convolucionais
+	
+	No contexto de inteligencia artificial e aprendizagem de maquina, uma rede neural convolucional (CNN do inglês Convolutional Neural network ou ConvNet) é uma classe de rede neural artificial do tipo feed-foward, que vem sendo aplicada com sucesso no processamento e analise de imagens digitais[4].
+	Uma CNN tende a demandar um nível mínimo de pré-processamento quando comparada a outros algoritmos de classificação de imagens. Isso significa que a rede "aprende" os filtros que em um algoritmo tradicional precisariam ser implementados manualmente. Essa independência de um conhecimento a priori e do esforço humano no desenvolvimento de suas funcionalidades básicas pode ser considerada a maior vantagem de sua aplicação.
+	Esse tipo de rede é usada principalmente em reconhecimento de imagens e processamento de vídeo, embora já tenha sido aplicada com sucesso em experimentos envolvendo processamento de voz e linguagem natural.
+	Uma CNN é normalmente composta por camadas que geralmente executam uma série de quatro operações lineares e não-lineares sequenciais, tais como:
+    • Convolução: calcula a intensidade de um dado pixel de acordo com a soma ponderada dos seus pixeis vizinhos.
+    • Ativação: mapeia a saída da operação de convolução com o objetivo de limitar o ”neurônio“ de saída.
+    • Spatial Pooling: reduz a dimensão das características do mapa. Tem o efeito de reduzir a sensibilidade da saída do mapa a deslocamentos e outras formas de distorção, selecionando características invariantes que melhoram o desempenho de generalização.
+    • Normalização: geralmente cria uma concorrência entre os mapas. Visa reforçar ainda mais a robustez da CNN quanto ao vetor de características de saída.
+
+
+[1] CHONG, E. K. P.; ZAK., S. H. An Introduction to Optimization, Fourth Edition. [S.l.]: Jon Wiley Sons, Inc, 2013.
+[2] GONÇALVES DOS SANTOS, Claudio Filipi; BREVE, Fabricio Aparecido. Optical Character Recognition Usando Deep Learning In: VII Workshop do Programa de Pós- Graduação em Ciência da Computação - UNESP, 2017, Rio Claro. VII Workshop do Programa de Pós- Graduação em Ciência da Computação - UNESP, 2017. p.15 - 16.
+[3] Jürgen Schmidhuber. Deep learning in neural networks: An overview. Neural Networks, 61:85–117, 2015.
+[4] Convolutional Neural Networks (LeNet) - DeepLearning 0.1 documentation. DeepLearning 0.1. LISA Lab. Acesso em: dezembro de 2017.
+[5] Deep Learning Book, disponível on line em Livro http://www.deeplearningbook.com.br. Data Science Academy. 2018.
+[8] GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. Deep Learning. [S.l.]: MIT Press, 2018. http://www.deeplearningbook.org.
+[15] SAXENA, A. 
+[16] BRAGA, A. P. L. F. d. C. e. T. B. L. Antônio de P. Redes Neurais Artificiais-Teoria e Aplicações.-2ed. [S.l.]: LTC-Livros Técnicos e Cientı́ficos Editora S.A.-Rio de Janeiro, 2007.
