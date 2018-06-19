@@ -1,19 +1,27 @@
-O documento a ser apresentado para Qualificação deverá conter no mínimo as seguintes informações, com detalhes: 
+	Durante o desenvolvimento deste projeto, diferentes abordagem podem ser avaliadas.
+	
+	Pré-processamento:
 
-Identificação do aluno e do Orientador, 
+	Extração: 
+	
+	Treinamento:
 
-Título do Projeto, 
+	Classificação Final:
 
-Justificativa, 
+	Banco de Dados
 
-Fundamentação Teórica,
+	Validação
 
-Objetivos Geral e Específicos, 
+	
+	Cronograma
+		O cronograma apresentado na Tabela 1 pode ser adaptado, tendo em vista que novas per-
+cepções e oportunidades podem trazer resultados melhores que os previamente previstos.
 
-Metodologia, 
+		
+	Cronograma				Ago	Set	Out	Nov	Dez
+	Experimento				x	x	x
+	Escrita da Dissertação			x	x	x	x
+	Avaliação da Metodologia Proposta		x	x	x
+	Publicação dos Resultados						x
 
-Aplicabilidade, 
-
-Cronograma de Execução e 
-
-Referências Bibliográficas.
+	

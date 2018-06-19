@@ -1,9 +1,5 @@
 OBJETIVOS
-	O objetivo desse trabalhoé desenvolver uma metodologia,..., para isso, utilizou-se tecnicas de aprendizagem profunda, redes neurais convolucionais, que são modelos biologicamente inspirados capazes de aprender caracteristicas de alto nível pela composição de baixo nível.
-	Destaca-se como objetivos especificos deste trabalho:
-
-	- segmentação
-	- 
+	O objetivo desse trabalho é desenvolver uma metodologia,..., para isso, utilizou-se tecnicas de aprendizagem profunda, redes neurais convolucionais, que são modelos biologicamente inspirados capazes de aprender caracteristicas de alto nível pela composição de baixo nível.
 
 
 O objetivo deste trabalho é especificar um modelo de rede neural capaz de reconhecer

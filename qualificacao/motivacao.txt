@@ -10,3 +10,6 @@ cognição -> aquisição de um conhecimento
 Criar um modelo e combinar com tecnicas de deep learing para realizar o reconhecimento de caracteres manuscritos. As etapas são capacidade de detectar áreas com caracteres na imagem Segmentação e transcrever essas regiões em texto.
 
 
+Um dos objetivos deste trabalho é criar maquinas capazes de operar idependentemente do homem, de forma que aprendem sozinhas e iteragem com ambiente descohecidos e adquirem conhecimento.
+
+

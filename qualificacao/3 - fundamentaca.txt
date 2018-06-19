@@ -1,12 +1,3 @@
-FUNDAMENTAÇÃO TEORICA
-
-	### Redes Neuronais Artificiais
-
-	As redes Neuronais Artificiais tem sua história iniciada quando um ramo da psicologia caracterizado como conexionismo, tenta descrever matematicamente a forma de aprendizado do cérebro animal, tendo como referência a estrutura básica da massa encefálica, o neurônio. O primeiro modelo artificial de um neurônio natural foi desenvolvido por Warren McCulloch e Walter Pitts em 1943.
-	Em 1949 Donald Hebb mostrou que a capacidade de aprendizado da rede pode ser aprimorada pelo ajuste dos pesos de entrada dos neurônios, propondo que o aprendizado dos neurônios poderia ser realizado pelo reforço das ligações sinápticas entre os neurônios excitados pela camada de entrada. Em 1958 Rosenblatt propôs uma rede (Perceptron) com base na estrutura do neurônios proposto por McCulloch e Pitts onde, através do ajuste dos pesos sinápticos ocorreria o aprendizado de certos tipos de padrões.
-	Nos trabalhos de Widrow e Hoff em 1960 foi proposta uma regra de aprendizado cujos os valores dos pesos seriam proporcionais a sua entrada, o erro entre o valor desejado na saı́da da rede e o valor apresentado pela mesma e uma constante (caracterizada como
-passo de aprendizado). As primeiras redes sofreram problemas quanto a classificação de padrões não-linearmente-separáveis, resolvido através do uso de redes MLP (Multi-Layer Perceptron) ou Perceptron de múltiplas camadas e do algoritmo de backpropagation.
-	As Redes Neuronais Artificiais tem se mostrado robustas à várias aplicações práticas como cancelamento de eco, reconhecimento de padrões, indo até extração de padrões de uma grande quantidade de imagens [1] [15] [16] [8]. A rede neuronal, pela sua constituição matemática, pode ser vista como um dispositivo de computação paralela, haja vista que um neurônio trata vários sinais paralelamente, gerando um efeito individual entradas-saı́da [16].
 	
 	### Função de Ativação
 
@@ -30,9 +21,6 @@ passo de aprendizado). As primeiras redes sofreram problemas quanto a classifica
 
 	### Deep Learning
 
-	O interesse pela Aprendizagem de Máquina( Machine learning) explodiu na última década. O mundo a nossa volta está passando por uma transformação e vemos uma interação cada vez maior das aplicações de computador com os seres humanos.
-	Deep learning é um ramo da área de aprendizado de máquinas baseado em um conjunto de algoritmos que visa modelar em alto nível as abstrações de dados usando várias camadas de processamento com complexas estruturas, compostas de transformações não-lineares[2]. Começou como uma necessidade em Machine Learning de interpretar níveis de maior complexidade do mundo perceptual e criar sistemas perceptivos que possam aprender essas interpretações olhando seu ambiente . A literatura coloca o Deep Learning como um subcampo de redes neurais artificiais. O treinamento de redes neurais profundas (Deep Neural Networks) com base em backpropagation apresentou dificuldades ao ser colocado em prática pelo final dos anos 1980. Assim, tal treinamento tornou-se um assunto de pesquisa no início da década de 1990, levando ao desenvolvimento de novas metodologias de treinamento. Finalmente, nos anos 2000, houve um aperfeiçoamento da aprendizagem supervisionada utilizando puramente Deep Learning [3].
-
 	### Redes Neuronais Convolucionais
 	
 	No contexto de inteligencia artificial e aprendizagem de maquina, uma rede neural convolucional (CNN do inglês Convolutional Neural network ou ConvNet) é uma classe de rede neural artificial do tipo feed-foward, que vem sendo aplicada com sucesso no processamento e analise de imagens digitais[4].
@@ -45,11 +33,12 @@ passo de aprendizado). As primeiras redes sofreram problemas quanto a classifica
     • Normalização: geralmente cria uma concorrência entre os mapas. Visa reforçar ainda mais a robustez da CNN quanto ao vetor de características de saída.
 
 
-[1] CHONG, E. K. P.; ZAK., S. H. An Introduction to Optimization, Fourth Edition. [S.l.]: Jon Wiley Sons, Inc, 2013.
 [2] GONÇALVES DOS SANTOS, Claudio Filipi; BREVE, Fabricio Aparecido. Optical Character Recognition Usando Deep Learning In: VII Workshop do Programa de Pós- Graduação em Ciência da Computação - UNESP, 2017, Rio Claro. VII Workshop do Programa de Pós- Graduação em Ciência da Computação - UNESP, 2017. p.15 - 16.
 [3] Jürgen Schmidhuber. Deep learning in neural networks: An overview. Neural Networks, 61:85–117, 2015.
 [4] Convolutional Neural Networks (LeNet) - DeepLearning 0.1 documentation. DeepLearning 0.1. LISA Lab. Acesso em: dezembro de 2017.
 [5] Deep Learning Book, disponível on line em Livro http://www.deeplearningbook.com.br. Data Science Academy. 2018.
 [8] GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. Deep Learning. [S.l.]: MIT Press, 2018. http://www.deeplearningbook.org.
-[15] SAXENA, A. 
-[16] BRAGA, A. P. L. F. d. C. e. T. B. L. Antônio de P. Redes Neurais Artificiais-Teoria e Aplicações.-2ed. [S.l.]: LTC-Livros Técnicos e Cientı́ficos Editora S.A.-Rio de Janeiro, 2007.
+
+
+
+ 
