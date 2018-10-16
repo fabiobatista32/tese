@@ -1,0 +1,18 @@
+Organização do Trabalho
+ 
+Além do capı́tulo introdutório, ainda há mais 5 capı́tulos completando esta
+dissertação.
+No Capı́tulo 2 são apresentados os trabalhos relacionados que tratam dos trabalhos
+com impacto no meio cientifico para que possam ser comparados com a metodologia
+proposta.
+O Capı́tulo 3 trata da da fundamentação teórica. Nele é mostrado conceitos e
+técnicas necessárias para o entendimento da metodologia desenvolvida neste trabalho.
+No Capı́tulo 4 será apresentada a metodologia proposta, que está dividida em
+duas fases: fase de treino e fase de teste. Na fase de treino são criados modelos que
+posteriormente serão utilizados na fase de teste para classificar as mamas em densas e não
+densas, e regiões segmentadas em massas e não massas. Neste capı́tulo são apresentadas
+todas as etapas até a detecção de massas.
+O Capı́tulo 5 apresenta os resultados e discussões de cada etapa da metodologia
+proposta.
+Por fim, no Capı́tulo 6, expõem-se as conclusões obtidas a partir da metodologia
+proposto e mencionam-se os trabalhos para futuros aprimoramentos.
